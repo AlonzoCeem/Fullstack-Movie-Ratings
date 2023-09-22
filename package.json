@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "webpack --watch --mode=development",
-    "start:dev": "nodemon index --ignore src/ --ignore dist/"
+    "buildDev": "webpack --watch --mode=development",
+    "startDev": "nodemon index --ignore src/ --ignore dist/"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "axios": "^1.5.0",
     "express": "^4.18.2",
     "pg": "^8.11.3"
   }
